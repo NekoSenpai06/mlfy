@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    color: pink;
+}
+
+@media (min-width: 250px) {
+    nav {
+        background-color: rgba(255, 255, 255, 0.055);
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    nav a {
+        font-family: monospace;
+        color: pink;
+        padding: 11px 31px;
+    }
+
+    nav .active {
+        text-decoration: underline;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        font-family: verdana;
+        color: rgb(255, 243, 210);
+    }
+
+    div {
+        padding: 5px 0px;
+    }
+
+    p {
+        font-family: arial;
+        color: whitesmoke;
+        padding: 10px 30px;
+        display: inline;
+    }
+
+    .link {
+        font-family: monospace;
+    }
+}
+
+@media (min-width: 410px) {
+    nav {
+         background-color: rgba(255, 255, 255, 0.055);
+         padding: 15px 0px;
+         text-align: center;
+    }
+
+    nav a {
+         font-family: monospace;
+         color: pink;
+         padding: 15px 50px;
+         font-size: 15px;
+    }
+
+    nav .active {
+         text-decoration: underline;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        font-family: verdana;
+        color: rgb(255, 243, 210);
+    }
+
+    div {
+        padding: 8px 0px;
+    }
+
+    p {
+        font-size: 17px;
+        font-family: arial;
+        color: whitesmoke;
+        padding: 10px 30px;
+        display: inline;
+    }
+
+    .link {
+        font-size: 17px;
+        font-family: monospace;
+    }
+}
+
+@media (min-width: 500px) {
+    nav {
+         background-color: rgba(255, 255, 255, 0.055);
+         padding: 18px 0px;
+         text-align: center;
+    }
+
+    nav a {
+         font-family: monospace;
+         color: pink;
+         padding: 15px 60px;
+         font-size: 18px;
+    }
+
+    nav .active {
+         text-decoration: underline;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 10px;
+        font-family: verdana;
+        color: rgb(255, 243, 210);
+    }
+
+    div {
+        padding: 10px 0px;
+    }
+
+    p {
+        font-size: 21px;
+        font-family: arial;
+        color: whitesmoke;
+        padding: 10px 30px;
+        display: inline;
+    }
+
+    .link {
+        font-size: 21px;
+        font-family: monospace;
+    }
+}

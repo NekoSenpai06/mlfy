@@ -1,0 +1,129 @@
+* {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+}
+
+body {
+     background-image: url("images/bg.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+@media (min-width: 250px) {
+     img {
+          display: block;
+          width: 300px;
+          margin-top: 70px;
+          margin-left: auto;
+          margin-right: auto;
+     }
+
+     .containter {
+          background-color: rgba(255, 255, 255, 0.137);
+          width: 80%;
+          text-align: center;
+          margin-top: 50px;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 10px;
+          border: 1px solid rgba(231, 231, 231, 0.493);
+     }
+
+     input {
+          padding: 10px 10px;
+          border-radius: 6px;
+          border: none;
+          margin-top: 20px;
+     }
+
+     button {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 15px;
+          padding: 9px 20px;
+          border-radius: 5px;
+          border: none;
+          background-color: rgb(255, 236, 194)
+     }
+}
+
+@media (min-width: 250px) {
+     img {
+          display: block;
+          width: 350px;
+          margin-top: 70px;
+          margin-left: auto;
+          margin-right: auto;
+     }
+
+     .containter {
+          background-color: rgba(255, 255, 255, 0.137);
+          width: 80%;
+          text-align: center;
+          margin-top: 50px;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 10px;
+          border: 1px solid rgba(231, 231, 231, 0.493);
+     }
+
+     input {
+          padding: 10px 20px;
+          border-radius: 6px;
+          border: none;
+          margin-top: 20px;
+     }
+
+     button {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 15px;
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: none;
+          background-color: rgb(255, 236, 194)
+     }
+}
+
+@media (min-width: 250px) {
+     img {
+          display: block;
+          width: 400px;
+          margin-top: 70px;
+          margin-left: auto;
+          margin-right: auto;
+     }
+
+     .containter {
+          background-color: rgba(255, 255, 255, 0.137);
+          width: 80%;
+          text-align: center;
+          margin-top: 50px;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 10px;
+          border: 1px solid rgba(231, 231, 231, 0.493);
+     }
+
+     input {
+          font-size: 15px;
+          padding: 13px 28px;
+          border-radius: 6px;
+          border: none;
+          margin-top: 20px;
+     }
+
+     button {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 15px;
+          padding: 13px 25px;
+          border-radius: 5px;
+          border: none;
+          background-color: rgb(255, 236, 194)
+     }
+}
